@@ -1,0 +1,14 @@
+{
+	"name": "Test",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/sbt-sdkman:2": {
+			"version": "1.8.3",
+			"jdkVersion": "17",
+			"jdkDistro": "ms"
+		}
+	},
+
+    "postStartCommand": "sbt --version"
+
+}
