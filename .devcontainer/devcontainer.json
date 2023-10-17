@@ -9,10 +9,11 @@
 		}
 	},
 
+	"onCreateCommand": "./learnmore.sh >> /tmp/onCreateCommand.txt",
+	"updateContentCommand": "./learnmore.sh  >> /tmp/updateContentCommand.txt",
+	"postCreateCommand": "./learnmore.sh >> /tmp/postCreateCommand.txt",
     "postStartCommand": "./learnmore.sh >> /tmp/postStartCommand.txt",
-    "postCreateCommand": "./learnmore.sh >> /tmp/postCreateCommand.txt",
     "postAttachCommand": "./learnmore.sh  >> /tmp/postAttachCommand.txt",
-    "onCreateCommand": "./learnmore.sh >> /tmp/onCreateCommand.txt",
-    "updateContentCommand": "./learnmore.sh  >> /tmp/updateContentCommand.txt"
+    
       
 }
