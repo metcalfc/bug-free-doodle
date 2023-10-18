@@ -11,3 +11,11 @@ for file in ${commands[@]} ; do
   fi
   echo
 done
+
+if ! command -v sbt &> /dev/null
+then
+  echo "sbt could not be found in the default terminal path"
+else
+  echo "default terminal:"
+  sbt --version
+fi
